@@ -1,0 +1,31 @@
+.container__redes{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 75px;
+    left: 20px;
+    background: white;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 7px #000;
+    z-index: 999;
+}
+
+.icon__container__redes{
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    cursor: pointer;
+}
+.icon__redes{
+    color: green;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .container__redes{
+        left: 3%;
+        top: 75%;
+    }
+}
