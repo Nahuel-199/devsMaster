@@ -12,12 +12,12 @@ const Works = () => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <section className='work container section' id="clientes">
+    <section className='work_container section' id="clientes">
         <h2 style={{color: darkMode && "#fff"}} className="section__title">Nuestros Trabajos</h2>
         <span className="section__subtitle"></span>
 
-        <Swiper 
-        className="work__container"
+        <Swiper
+        className="work__container_swiper"
         loop={true}
         grabCursor={true}
         spaceBetween={24}
@@ -26,15 +26,15 @@ const Works = () => {
         }}
         breakpoints={{
           576: {
-            slidesPerView: 1,
+            slidesPerView: 2,
           },
           768: {
-            slidesPerView: 1,
+            slidesPerView: 2,
             spaceBetween: 48,
           },
         }}
         modules={[Pagination]}
-        >
+      >
              {Data.map(({ id, image, link }) => {
                 return (
                     <SwiperSlide className="work__card" key={id}>

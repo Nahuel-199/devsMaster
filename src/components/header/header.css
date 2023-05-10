@@ -82,6 +82,10 @@
       transition: .3s;
    }
 
+   .img_header{
+    margin-right: 175px;
+   }
+
   /*  ------Show Menu------- */
   .show-menu {
     bottom: 0;

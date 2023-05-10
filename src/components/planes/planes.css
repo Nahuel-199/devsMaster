@@ -128,7 +128,7 @@
     @media screen and (max-width: 600px) {
       .productCard {
         width: 44vmax;
-        height: 495px;
+        height: 530px;
       }
     
       .productCard .contentBx h3 {

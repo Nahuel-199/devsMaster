@@ -1,25 +1,25 @@
 import "./home.css";
-import Social from './Social';
-import Data from './Data';
-import ScrollDown from './ScrollDown';
-import logo from "../../assets/fig.png"
+import { Link } from "react-scroll";
 
 const Home = () => {
-    
+  
   return (
-    <section className="home section" id="home">
-        <div className="home__container container grid">
-            <div className="home__content grid">
-                <Social />
-                <div className="home__img">
-                  <img className="logo_figura" src={logo} alt="" />
-                </div>
-                <Data />
-            </div>
-            <ScrollDown />
+    <div id="main">
+      <div className="header-heading">
+        <h1>Realizamos tu pagina web</h1>
+        <p className="details">Diseños 100% personalizados</p>
+        <p className="details">
+          Aprovecha todo el potencial de tu negocio en línea con nuestro
+          servicio especializado en desarrollo web
+        </p>
+        <div className="header-btns">
+          <Link to="contact" smooth={true} duration={1000}>
+            <button className="header-btn">HACENOS TU CONSULTA</button>
+          </Link>
         </div>
-    </section>
-  )
-}
+      </div>
+    </div>
+  );
+};
 
-export default Home
+export default Home;
