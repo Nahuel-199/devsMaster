@@ -51,7 +51,7 @@ const Contact = () => {
               <i className="bx bx-mail-send contact__card-icon"></i>
 
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">devsmasterjs@gmail.com</span>
+              <span style={{ color: darkMode && "black" }} className="contact__card-data">devsmasterjs@gmail.com</span>
 
               <a
                 href="devsmasterjs@gmail.com"
@@ -68,7 +68,7 @@ const Contact = () => {
               <i className="bx bxl-instagram contact__card-icon"></i>
 
               <h3 className="contact__card-title">Instagram</h3>
-              <span className="contact__card-data">devsmasterjs</span>
+              <span style={{ color: darkMode && "black" }} className="contact__card-data">devsmasterjs</span>
 
               <a
                 href="https://www.instagram.com/devsmasterjs/"
@@ -85,7 +85,7 @@ const Contact = () => {
               <i className="bx bxl-facebook contact__card-icon"></i>
 
               <h3 className="contact__card-title">Facebook</h3>
-              <span className="contact__card-data">Devs Master</span>
+              <span style={{ color: darkMode && "black" }} className="contact__card-data">Devs Master</span>
 
               <a
                 href="https://www.facebook.com/profile.php?id=100090673827187"
