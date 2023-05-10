@@ -12,7 +12,7 @@ const Works = () => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <section className='work_container section' id="clientes">
+    <section className='work_container section' id="trabajos">
         <h2 style={{color: darkMode && "#fff"}} className="section__title">Nuestros Trabajos</h2>
         <span className="section__subtitle"></span>
 

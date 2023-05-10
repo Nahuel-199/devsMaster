@@ -70,19 +70,6 @@ const Header = () => {
 
             <li className="nav__item">
               <a 
-              href="#proyectos" 
-              onClick={() => setActiveNav("#proyectos")} 
-              className={
-                activeNav === "#proyectos" ? "nav__link active-link"
-                : "nav__link"
-              } style={{ color: darkMode && "#fff" }}>
-                <i className="uil uil-scenery nav__icon"></i>
-                Blog
-              </a>
-            </li>
-
-            <li className="nav__item">
-              <a 
               href="#planes" 
               onClick={() => setActiveNav("#contact")} 
               className={
@@ -91,6 +78,19 @@ const Header = () => {
               } style={{ color: darkMode && "#fff" }}>
                 <i style={{ color: darkMode && "#fff" }} className="uil uil-message nav__icon"></i>
                 Planes
+              </a>
+            </li>
+
+            <li className="nav__item">
+              <a 
+              href="#trabajos" 
+              onClick={() => setActiveNav("#trabajos")} 
+              className={
+                activeNav === "#trabajos" ? "nav__link active-link"
+                : "nav__link"
+              } style={{ color: darkMode && "#fff" }}>
+                <i style={{ color: darkMode && "#fff" }} className="uil uil-scenery nav__icon"></i>
+                Trabajos
               </a>
             </li>
 
