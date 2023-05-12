@@ -5,7 +5,7 @@ const Wsp = () => {
   return (
     <div className='container__redes'>
         <div className='icon__container__redes'>
-          <a target="_blank" rel="noreferrer" href="https://walink.co/31b0ff">
+          <a target="_blank" rel="noreferrer" href="https://walink.co/70321e">
         <BsWhatsapp className='icon__redes' />
         </a>
         </div>
