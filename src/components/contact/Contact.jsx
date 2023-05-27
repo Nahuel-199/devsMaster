@@ -30,7 +30,7 @@ const Contact = () => {
       form.current,
       "g8n70APlwxayrMVWX"
     );
-    toast.success("Formulario enviado correctamente 👍", {
+    toast.success("Mensaje enviado con exito 👍", {
       position: toast.POSITION.BOTTOM_CENTER,
     });
     e.target.reset();
